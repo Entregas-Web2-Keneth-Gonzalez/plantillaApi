@@ -1,0 +1,13 @@
+Creación:
+- npx typeorm init --name plantilla --express --database MySQL
+
+Configuraciones:
+- npm i cors jsonwebtoken bcryptjs class-validator helmet
+
+- npm i -D ts-node-dev typescript
+
+- npm i -D @types/cors @types/jsonwebtoken @types/express @types/bcryptjs @types/node
+
+MYSQL:
+borrar en (package-lock.json) la librería de MySQL y correr en terminal: npm i install mysql2
+verificar en .json
